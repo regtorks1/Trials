@@ -5,3 +5,11 @@ const newArrayAfter = newArray.map(arrayNew => {
 })
 
 console.log(newArrayAfter)
+
+const newNumber = ['hen', 'cock', 'rooster', 'chick']
+
+const filtNumber = newNumber.filter(newFilt => {
+    if(newFilt.length <= 3){
+        return newFilt
+    }
+})
